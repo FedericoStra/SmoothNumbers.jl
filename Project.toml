@@ -1,7 +1,11 @@
 name = "SmoothNumbers"
 uuid = "48ae9875-8a8b-401f-9c90-1ad5d6adef54"
 authors = ["Federico Stra <stra.federico@gmail.com> and contributors"]
-version = "1.0.0-DEV"
+version = "0.1.0-DEV"
+
+[deps]
+Primes = "27ebfcd6-29c5-5fa9-bf4b-fb8fc14df3ae"
 
 [compat]
 julia = "1.4"
+Primes = "0.5"
